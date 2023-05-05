@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(94 234 212);
+}
+
+
+#img,
+#img-form{
+    display: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 36rem;
+    height: 100vh;
+}
+
+.select_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    border-color: #3b82f6;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    width: auto;
+    background-color: #f8f8f8;
+}
+
+label{
+    width: 16rem;
+    padding: 2rem;
+    color: #a1a1aa;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+label:hover{
+    color: #047857;
+}
+
+.form-label {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    margin: auto;
+    padding: 0.75rem;
+    color: #fff;
+}
+  
+.form-input {
+    display: block;
+    margin-top: 0.25rem;
+    width: 80%;
+    margin: auto;
+    padding: 0.75rem;
+    color: #4b5563;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border-width: 1px;
+    border-color: #d1d5db;
+    border-radius: 0.375rem;
+}
+  
+.form-button {
+    display: block;
+    margin-top: 1rem;
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background-color: #059669;
+    border-width: 1px;
+    border-color: transparent;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+.form-button:hover,
+.form-button:focus {
+    background-color: #047857;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(79, 202, 174, 0.5);
+}
+  
+.form-button:active {
+    background-color: #065f46;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) inset;
+}
+.file-info {
+    color: #fff;
+    font-size: 1.125rem;
+    font-family: monospace;
+    text-align: center;
+}
+.file-info strong {
+    font-weight: bold;
+}
+  
+.file-info #filename,
+.file-info #output-path {
+    font-weight: bold;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'"/>
+    <link rel="stylesheet" href="style.css">
+    <title>evanskaps Image Resizer</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="select_box">
+        <label>
+            <span>Select an image to resize</span>
+            <input id="img" type="file"/>
+        </label>
+        </div>
+         <!-- Form -->
+        <form id="img-form">
+            <div class="mt-6">
+                <label class="form-label" for="width">Width</label>
+                <input type="number" name="width" id="width" class="form-input" placeholder="Width" />
+              </div>
+              
+              <div class="mt-4">
+                <label class="form-label" for="height">Height</label>
+                <input type="number" name="height" id="height" class="form-input" placeholder="Height" />
+              </div>
+   
+              
+              <div class="mt-6">
+                <button type="submit" class="form-button">Resize</button>
+              </div>
+        </form>
+       
+        <p class="file-info"><strong>File: </strong><span id="filename"></span></p>
+        <p class="file-info"><strong>Output: </strong><span id="output-path"></span></p>
+  
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
